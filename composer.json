@@ -1,0 +1,26 @@
+{
+    "name": "onemustcode/cli",
+    "description": "A simple to use command line interface framework.",
+    "type": "project",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Jeffrey Buitenhuis",
+            "email": "jeffrey@onemustcode.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "onemustcode/cli-framework": "^1.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
