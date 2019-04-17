@@ -8,5 +8,8 @@ To install the CLI framework just run the following composer command;
 composer create-project onemustcode/cli my_project --prefer-dist
 ```
 
+## Create new commands
+todo: fix description
+
 ## License
 The CLI framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
