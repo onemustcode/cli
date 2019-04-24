@@ -47,7 +47,8 @@ In the created provider there is a **load** method. In this load method you can 
 public function load(): void
 {
     // Interface binding
-    $this->app->bind(MyCustomInterface::class, MyCustomClass::class);
+    $myCustom = MyCustom::create();
+    $this->app->bind(MyCustomInterface::class, $myCustom);
     
     // Or initiate a class with custom parameters
     $this->app->bind(MyClass::class, function () {
